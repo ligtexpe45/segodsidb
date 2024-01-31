@@ -296,7 +296,7 @@ class VectorUnet(torchseg.base.BaseModel):
     @details Four levels with 32, 64, 128, and 128 neurons. 
     """
 
-    def __init__(self, in_channels=3, out_channels=35):
+    def __init__(self, in_channels=51, out_channels=35):
         """
         @param[in]  in_channels  Number of input channels, e.g. set it to
                                         three for RGB images.
